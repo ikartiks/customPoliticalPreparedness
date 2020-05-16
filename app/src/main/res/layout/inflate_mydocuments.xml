@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/stdElevationForCards"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:layout_marginTop="@dimen/text_margin"
+        tools:src="@drawable/pdf_with_circle"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/attachment"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="asdasdasd"
+        android:layout_toRightOf="@+id/Image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_small"
+        />
+
+    <TextView
+        android:id="@+id/startDateEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="asdasdasd"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/Title"
+        android:layout_toRightOf="@+id/Image"
+        android:textSize="@dimen/text_size_vsmall"
+        />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/bg_selected_all_profile"
+    >
+    <!--android:background="@drawable/bg_selected_all_profile"-->
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        tools:text="asd asd asd, M"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/lightPrimaryText"
+         />
+
+    <TextView
+        android:id="@+id/Other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        tools:text="asd asd asd, M"
+        android:textSize="@dimen/text_size_vsmall"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/Add"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:paddingBottom="2dp"
+        android:src="@drawable/plus"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
+
+
+
+
+

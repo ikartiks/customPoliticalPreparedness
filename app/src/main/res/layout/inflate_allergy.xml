@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_selected_all_profile_parent"
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_selected_all_profile">
+
+            <ImageView
+                android:id="@+id/Image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerInside"
+                tools:src="@drawable/bp_layer"/>
+
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:layout_gravity="center"
+                tools:text=" lololol asdasdasdasd "
+                android:textColor="@color/lightPrimaryText"
+                android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <me.kaede.tagview.TagView
+            android:id="@+id/TagView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:lineMargin="5dp"
+            app:tagMargin="3dp"
+            app:textPaddingBottom="3dp"
+            app:textPaddingLeft="10dp"
+            app:textPaddingRight="10dp"
+            app:textPaddingTop="3dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:context="com.yrdtechnologies.ActivityMaps"
+        map:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:tabMode="fixed"
+        app:tabBackground="@color/tabBgLight"
+        app:tabIndicatorColor="@color/lightPrimaryText"
+        app:tabIndicatorHeight="2dp"
+        android:layout_alignBottom="@+id/map"
+        map:layout_constraintBottom_toBottomOf="@id/map"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        map:layout_constraintTop_toBottomOf="@id/map"
+        map:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

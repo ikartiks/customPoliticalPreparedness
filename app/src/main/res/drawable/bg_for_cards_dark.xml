@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <corners android:radius="3dp"/>
+    <!--<solid android:color="?attr/bgForRecycler" />-->
+    <!--<stroke android:color="?attr/bgStrokeForRecycler" android:width="1dp"/>-->
+
+    <solid android:color="@color/darkBgForRecycler" />
+    <stroke android:color="@color/darkBgStrokeForRecycler" android:width="1dp"/>
+
+</shape>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="Select allergies"
+        android:textColor="@color/lightPrimaryText"
+        android:textSize="@dimen/header_dimen_dialog"
+        />
+
+    <RelativeLayout
+        android:id="@+id/AddContainer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/Add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/add"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <EditText
+            android:id="@+id/AddProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            tools:text="Enter something"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_add"
+            android:layout_toLeftOf="@+id/Add"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/BottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/Done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textSize="@dimen/small_dialog_item"
+                android:layout_weight="1"
+                android:textColor="@color/lightPrimaryText"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:background="@color/gray"
+                android:layout_gravity="center_vertical"></View>
+
+            <Button
+                android:id="@+id/Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:textSize="@dimen/small_dialog_item"
+                android:textColor="@color/lightPrimaryText"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:name="com.yrdtechnologies.FragmentDrugAllerfies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            tools:context="com.yrdtechnologies.FragmentDrugAllergies"
+            tools:listitem="@layout/inflate_myprofile"
+            android:layout_above="@+id/BottomBar"
+
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yrdtechnologies.ActivityMedicine">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/searchParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/appbar1">
+        <EditText
+            android:id="@+id/Search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_action_search_light"
+            android:layout_margin="3dp"
+            android:background="@drawable/search"
+            android:paddingLeft="@dimen/stdElevationForCards"
+            android:drawablePadding="@dimen/stdElevationForCards"
+            android:hint="Search Medicines"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.yrdtechnologies.FragmentDrugAllerfies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.yrdtechnologies.FragmentDrugAllergies"
+        tools:listitem="@layout/inflate_search_medicine"
+        app:layout_constraintTop_toBottomOf="@id/searchParent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

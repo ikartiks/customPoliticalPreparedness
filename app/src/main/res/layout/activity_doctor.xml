@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yrdtechnologies.ActivityMedicine">
+
+    <LinearLayout
+        android:id="@+id/EmptyParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/EmptyAdd"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/upload_empty"/>
+
+        <TextView
+            android:id="@+id/EmptyMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/EmptyAdd"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Seems your drive is empty, add a doctor from search doctors section to get started"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_gray_white"
+        android:drawablePadding="@dimen/stdElevationForCards"
+        android:drawableRight="@drawable/search_buttonwith_icon"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:hint="Search doctors"
+        android:paddingLeft="10dp"
+        android:textColor="@color/lightPrimaryText"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/RecentParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/Search"
+        >
+
+        <TextView
+            android:id="@+id/Recent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent visits"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/One"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#6fc64097"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ImageOne"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    tools:src="@drawable/jpg_white"/>
+
+                <TextView
+                    android:id="@+id/NameOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="asdasdasd"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/DateOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="12 Mar"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#6f936516"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:padding="10dp"
+
+                android:elevation="5dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ImageTwo"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    tools:src="@drawable/jpg_white"/>
+
+                <TextView
+                    android:id="@+id/NameTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    tools:text="asdasdasd"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/DateTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="12 Mar"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:textSize="@dimen/text_size_small"
+                    android:ellipsize="end"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#6f873393"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ImageThree"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    tools:src="@drawable/jpg_white"/>
+
+                <TextView
+                    android:id="@+id/NameThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    tools:text="asdasdasd"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/DateThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="12 Mar"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/white"
+                    />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All files"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RecentParent"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.yrdtechnologies.FragmentDrugAllerfies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.yrdtechnologies.FragmentDrugAllergies"
+        tools:listitem="@layout/inflate_search_medicine"
+        app:layout_constraintTop_toBottomOf="@id/ListHeader"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

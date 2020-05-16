@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorPrimary">#161326</color>
+	<color name="profileBg">#151225</color>
+	<color name="colorPrimaryDark">#BDBDBD</color>
+	<color name="colorAccent">#161326</color>
+
+	<color name="lightVerionPrimary">#2db3a6</color>
+	<color name="tabBg">#282530</color>
+
+	<!-- Light theme colors -->
+    <color name="lightColorPrimary">#161326</color>
+    <color name="lightColorPrimaryDark">#BDBDBD</color>
+	<color name="lightAccent">#161326</color>
+	<color name="lightPrimaryText">#009889</color>
+	<color name="lightSecandoryText">#727272</color>
+	<color name="lightIcons">#212121</color>
+	<color name="lightDivider" >#B6B6B6</color>
+	<color name="lightBgStrokeForCards" >#9E9E9E</color>
+	<color name="tabBgLight">#bf282530</color>
+
+	<color name="customThemeLightBg">#F5F5F5</color>
+	<color name="customThemeLightText">#212121</color>
+
+    <color name="lightSecTextColor" >#8F8F8F</color>
+
+	<color name="lightWindowStart">#EDE8E8</color>
+	<color name="lightWindowMiddle">#E6E3E3</color>
+	<color name="lightWindowEnd">#DED5D5</color>
+
+    <color name="lightCorrectAns">#AEF5D1</color>
+    <color name="lightWrongAns">#D17985</color>
+	
+    <!-- DarkTheme colors -->
+    <color name="darkColorPrimary">#3D3F40</color>
+    <color name="darkColorPrimaryDark">@color/black</color>
+    <color name="darkAccent">#525657</color>
+	<color name="darkPrimaryText">#CBD0D1</color>
+	<color name="darkSecandoryText">#DEE2E3</color>
+	<color name="darkIcons">#FFFFFF</color>
+	<color name="darkDivider">#525657</color>
+    <color name="darkFabBg">#5b5b58</color>
+
+    <color name="darkSecColor">#DEE2E3</color>
+	
+	<color name="darkBgForRecycler">@color/black</color>
+	<color name="darkBgStrokeForRecycler">@color/black</color>
+
+    <color name="darkCorrectAns">#A69D9F</color>
+    <color name="darkWrongAns">#D17985</color>
+	
+	<!-- <color name="customThemeDarkBg">#1f1f4a</color> 
+    <color name="customThemeDarkText">#ffffff</color>-->
+    
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+	<color name="gray">#e1e1e1</color>
+    
+</resources>

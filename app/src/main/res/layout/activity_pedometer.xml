@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/currentActivityParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:background="@drawable/gradient_white"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current activity"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:max="100"
+                    android:progress="100"
+                    android:layout_centerHorizontal="true"
+                    android:progressDrawable="@drawable/circular_progressbar" />
+
+                <TextView
+                    android:id="@+id/stepsNow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" 1000 "
+                    android:textSize="40sp"
+                    android:textColor="@color/lightPrimaryText"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100 \n (Current session)"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/progressBar"
+                    />
+
+                <Button
+                    android:id="@+id/reset2"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:text="reset"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:layout_alignBottom="@+id/progressBar"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:background="@color/lightPrimaryText"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:background="@drawable/gradient_white"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/calories"/>
+
+                <TextView
+                    android:id="@+id/calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" 1000 "
+                    android:textSize="40sp"
+                    android:textColor="@color/lightPrimaryText"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="calories"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                     />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="70dp"
+                android:background="@color/gray"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="50dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/steps"/>
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" 1000 "
+                    android:textSize="40sp"
+                    android:textColor="@color/lightPrimaryText"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meters"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:background="@drawable/gradient_white"
+            >
+
+            <TextView
+                android:id="@+id/stepsTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="5037"
+                android:textColor="@color/lightPrimaryText"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="60sp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Steps (weekly)"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/reset"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/tv_steps"
+            android:layout_alignStart="@+id/tv_steps"
+            android:layout_alignLeft="@+id/tv_steps"
+            android:src="@drawable/reset"
+            android:visibility="invisible"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"/>
+
+
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Pedometer"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Stop Pedometer"
+            />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

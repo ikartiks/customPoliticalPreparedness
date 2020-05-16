@@ -1,0 +1,1205 @@
+<resources>
+    <string name="app_name">YRD Technologies</string>
+    <string name="app_name_new">Rx Notes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_policy">Policy</string>
+    <string name="hint_gender">G:</string>
+    <string name="hint_number">Mobile number</string>
+    <string name="hint_details">Details</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_age">Age</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <string name="done">Done</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_add_dcoument">Add your document</string>
+
+    <string name="startDate">Start date  </string>
+    <string name="endDate">End date  </string>
+
+    <string-array name="array_hospitals">
+        <item>Select Hospital</item>
+
+         <item>CAMA AND ALBLESS HOSPITAL</item>
+         <item>ST. GEORGE\'S HOSPITAL</item>
+         <item>INDIAN NAVAL HOSPITAL</item>
+         <item>THE FAMILY PLANNING &amp; MEDICAL AIR TRUST</item>
+         <item>PARSI LYING IN HOSPITAL</item>
+         <item>GODFRY CLINIC</item>
+         <item>DR. BECHA\'S MEMORIAL BELIEVE NURSING HOME</item>
+         <item>BOMBAY HOSPITAL</item>
+         <item>DR. M.S.SHAH\'S MATERNITY &amp; GENERAL HOSPITAL MARINE DRIVE</item>
+         <item>MALPANI NURSING HOME</item>
+         <item>NORTHCOSTE NURSING HOME</item>
+         <item>DR. SHETHI\'S MAT. &amp; SURGICAL HOME</item>
+         <item>DR. ADTIA\'S NURSING &amp; MAT. MOME &amp; GYNAEC. HOSPITAL</item>
+         <item>STRAND MAT. HME (GYNAEC. SURGERY)</item>
+         <item>KHATAU MAKANJI MAT.&amp; SURGICAL HOSPITAL</item>
+         <item>CUFFEE PARADE NURSING HOME</item>
+         <item>DASTUR NURSING HOME</item>
+         <item>KRISHNA CLINIC</item>
+         <item>POPHALE NURSING HOME</item>
+         <item>SABU SIDDIK MAT. HOME</item>
+         <item>DHANLAXMI MAT. HOME</item>
+         <item>H.A.N.DHHOLKAWALA MAT. HOME</item>
+         <item>HAJI KARIM MOHMED SULEMAN MAT. HOME</item>
+         <item>RAHIMATBAI MAT. HOME</item>
+         <item>NOOR HOSPITAL</item>
+         <item>SURYAKANT VAGAI MUNICIPAL MATERNITY HOME</item>
+         <item>SETH GORDHANDAS RANCHODDAS BHAGAT MAT. HOME</item>
+         <item>WOMEN\'S CLINIC</item>
+         <item>RATTUBHAI\'S HOSPITAL</item>
+         <item>DR. C.L.ZAVERIA\'S HOSPITAL FOR WOMEN</item>
+         <item>DR. SAIBAI\'S MAT. HOME</item>
+         <item>DR. IRANI\'S HOSPITAL</item>
+         <item>SMT. KAMALADEVI MITTAL AYRUVEDIC HOSPITAL</item>
+         <item>THE BOMENJI DINSHAW PETIT PARSEE GEN. HOSPITAL</item>
+         <item>BHATIA GENERAL HOSPITAL</item>
+         <item>DR. KARANDE SURGICAL &amp; MAT. HOSPITAL</item>
+         <item>DR. D\'SA\'S HOSPITAL</item>
+         <item>HOSPITAL FOR WOMEN CARE</item>
+         <item>DR. (MRS) VIJAYKAR\'S MAT. &amp; SURG. HOSPITAL</item>
+         <item>DR. B.D.PATWARDHAN MAT &amp; GYNAEC. HOSPITAL</item>
+         <item>CHAWPATI MT. &amp; GYNEC. HOSPITAL</item>
+         <item>DR. WADIA NURSING HOME</item>
+         <item>KANCHANGAURI MAT. HOSPITAL</item>
+         <item>BRAHMASABHA MASKAR MAT. HOME.</item>
+         <item>DR. RAJANIBEN ARYA HOSPITAL</item>
+         <item>RUKHMINI HINDU LYING IN HOSPITAL</item>
+         <item>SIR. HARIKISHANDAS NARROTTAMDAS HOSPITAL.</item>
+         <item>ST. ELIZABETH NURSING HOME</item>
+         <item>DR.AMONKAR HOSPITAL</item>
+         <item>VASUDEO CLINIC</item>
+         <item>SAIFEE HOSPITAL</item>
+         <item>NARVEKAR CLINIC</item>
+         <item>SHETH MT &amp; GYNAEC NURSING HOME &amp; MAT. HMW</item>
+         <item>IDEAL NURSING HOME</item>
+         <item>DR PURANDARE HOSPITAL</item>
+         <item>THE BREACH CANDY HOSPITAL &amp; NURSING HOME</item>
+         <item>MODERN HOSPITAL FOR WOMAN</item>
+         <item>DR. IRANI\'S MAT. HOME</item>
+         <item>MISTRY HOSPITAL</item>
+         <item>DR. PADMA MEHTA\'S NURSING HOME</item>
+         <item>DR. PREMLATA PAI\'S MAT. HME</item>
+         <item>DR. C.J.SHAH\'S HOSPITAL</item>
+         <item>DR. WAGAL MAT. HOME</item>
+         <item>DR. KHUNDAWALA HOSPITAL</item>
+         <item>ANINKYA HOSPITAL</item>
+         <item>QUEEN\'S ROAD MAT. HOME &amp; SURG. NURSING HOME</item>
+         <item>MALBAR HILL CLINIC</item>
+         <item>DR. TARA RAMAO MATERNITY HOME.</item>
+         <item>MATERNITY &amp; NURSING HOME</item>
+         <item>AYURVEDIC HOSPITAL</item>
+         <item>DR. (MRS) VIMAL PAIKH NURSING HOME</item>
+         <item>DR. N.K.SHAH MATERNITY HOME &amp; SURGICAL HOME</item>
+         <item>DR. (MISS) NS.ZAVERI MATERNITY &amp; GYNAEC. HOSPITAL</item>
+         <item>AJINKYA GENERAL NURSING HOME</item>
+         <item>JANKU NURSING HOME</item>
+         <item>MODERN HOSPITAL</item>
+         <item>MOTHE &amp; CHILD HOSPITAL</item>
+         <item>SEVADHAM CLINIC &amp; NURSHING HOME</item>
+         <item>KAMALA POLYCLINIC &amp; NURSING HOME</item>
+         <item>DR. VOVA MATERNITY GYMAEC. HOSPITAL</item>
+         <item>DR. (MRS.) SINDHU R. PANDIT MAT. &amp; GYNAEX. &amp; SURGICAL NURSING HOME</item>
+         <item>D.MANGESHKAR CLINIC</item>
+         <item>JASLOK HOSPITAL</item>
+         <item>BURANI MAT. HOME</item>
+         <item>CHOUDHARI HOSPITAL</item>
+         <item>JOSHI NURSING HOME</item>
+         <item>DR. DARU SHAH\'S CLINIC</item>
+         <item>DEVI AHILYBAI HOLKAR MAT. HOME</item>
+         <item>KUMA KHENUN MUN.I MAT. HOME</item>
+         <item>KASTURBA HOSPITAL</item>
+         <item>B.Y.L.NAIR MARG</item>
+         <item>CENTRAL HOSPITAL &amp; NURSING HOME .</item>
+         <item>EUGINIE MAT. HOME</item>
+         <item>MASINA HOSPITAL</item>
+         <item>SIR.J.J.GROUP OF HOSPITALS</item>
+         <item>PRINCE ALY KHAN HOSPITAL</item>
+         <item>BYCULLA MAT. HOME</item>
+         <item>DR. T.W.SEQUERIA\'S MATERNITY HOSPITAL</item>
+         <item>ATUL KEDAR HOSPITAL</item>
+         <item>JAGIVANNAM HOSPITAL</item>
+         <item>C.M.O. BYCULLA CENTRAL RLY. HOSPITAL</item>
+         <item>PRERANA NURSING HOME</item>
+         <item>RAJASHRI MAT. &amp; SURGICAL NURSING HOME</item>
+         <item>BOMBAY MATERNITY &amp; SURGICAL  MAT. HOME</item>
+         <item>LOKMANYA TILAK MUNI. GEN. HOSPITAL</item>
+         <item>RAWLI CAMP MUNI MAT. HOME</item>
+         <item>DR. DANDEKAR\'S MATERNITY HOME &amp; NURSING HOME</item>
+         <item>MATUNGA CLINIC</item>
+         <item>DR. PREKH\'S HOSPITAL</item>
+         <item>DR. KARUNAKARAN HOSPITAL</item>
+         <item>MATUNGA NURSING AND MATERNITY HOME</item>
+         <item>SURGICAL &amp; MATERNITY HOME</item>
+         <item>FAMILY NURSING &amp; MATERNITY HOME</item>
+         <item>DR. SHYEETALAXMI MATERNITY HOME &amp; NURSING HOME</item>
+         <item>DR. NARVEKAR CLINIC</item>
+         <item>DR. PAL\'S HOSPITAL</item>
+         <item>DR. MERCHANT\'S HOSPITAL</item>
+         <item>SOBTI NURSING HOME</item>
+         <item>DR. GADZE\'S SURGICAL &amp; MATERNITY HOSPITAL</item>
+         <item>MATA LAXMI TRUST HOSPITAL</item>
+         <item>CHAR\'S OBSTATRICAL &amp; GYNAEC. HOSPITAL</item>
+         <item>DR. ABHYANKAR\'S MAT. HOME &amp; SURGICAL HOSPITAL</item>
+         <item>SHOBHA MATERNITY HOSPITAL</item>
+         <item>ROTUNDA NURSING HOME</item>
+         <item>DR. KHANDEPARKAR NURSING HOME</item>
+         <item>DR. PARCHURE\'S NURSING HOME</item>
+         <item>DR. PANDIT\'S NURSING HOME</item>
+         <item>MUMBAI PORT TRUST HOSPITAL</item>
+         <item>SION POLY CLINIC</item>
+         <item>SHRI SAMARTHA NURSING HOME</item>
+         <item>INDIRE MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>KALPANA NURSING HOME (GENERAL SURGICAL &amp; MATERNITY)</item>
+         <item>SURGICAL &amp; MATERNITY HOSPITAL</item>
+         <item>DR. LADS SAI HOSPITAL</item>
+         <item>DR. BHATIA\'S NURSING HOME</item>
+         <item>SETH RR. V. AYURVEDIC HOSPITAL</item>
+         <item>ANTOP HILL HOSPITAL</item>
+         <item>POOJA CLINIC</item>
+         <item>SAMADHAN MATERNITY SURGICAL NURSING HOME</item>
+         <item>NAIGAM MATERNITY HOME</item>
+         <item>K.E.M.HOSPITAL</item>
+         <item>RUKMINI MATERNITY HOME</item>
+         <item>NAWROJI WADIA MAT. HOSPITAL</item>
+         <item>DR. GODREJ\'S NURSING &amp; MAT. HOME</item>
+         <item>DESAI MEMORIAL LACMI LYING-IN-HOSPITAL &amp; NURSING HOME</item>
+         <item>RUKHUMAI MATERNITY HOME</item>
+         <item>NURSING HOME &amp;  EYE CLINIC</item>
+         <item>SOBTI HOSPITAL</item>
+         <item>ASHWINI MATERNITY &amp; SURGICAL HOME ROYAL APARTMENT</item>
+         <item>MISTRY MATERNITY AND NURSING HOME</item>
+         <item>PAREL HOSPITAL</item>
+         <item>MATERNITY HOSPITAL &amp; SURGICAL NURSING HOME</item>
+         <item>DR. N.U.JOSHI HOSPITAL</item>
+         <item>HANK MOHAMAD HAJI BABU SIDDIK MATERNITY HOME</item>
+         <item>POLICE MATERNITY HOSPITAL</item>
+         <item>WORLI HOSPITAL FOR WOMAN</item>
+         <item>HEALTH UNIT</item>
+         <item>DR. SATHE\'S MATERNITY &amp; NURSING HOME</item>
+         <item>B.M.&amp; C.W.SOCIETY MATERNITY HOSPITAL</item>
+         <item>WORLI HOSPITAL FOR WOMEN</item>
+         <item>YMT HOMEOPATHY MEDICAL COLLEGE (COLLEGE HOSPITAL)</item>
+         <item>DR. PARULEKAR MAT. &amp; SURGICAL HOME</item>
+         <item>M.A.PODAR HOSPITAL</item>
+         <item>M.S.MASKER MEMORIAL HOSPITAL</item>
+         <item>DR. PALAP\'S MAT &amp; GYNAEC. HOSPITAL &amp; FAMILY PLANNING CLINIC</item>
+         <item>DR. NERURKAR\'S NURSING HOME (</item>
+         <item>PRABHADEVI CLINIC SURGICAL &amp; MAT. HOME</item>
+         <item>SHANOY NURSING HOME</item>
+         <item>NIRMAL CLINIC</item>
+         <item>MUNL. MAT. HOME</item>
+         <item>LAXMI MAT. HOME</item>
+         <item>SADGURU MAT. HOME</item>
+         <item>DR. NARVANE\'S SURGICAL &amp; MAT. HOME</item>
+         <item>DR. PURANDER\'S SURGICAL &amp; MAT. HOSPITAL</item>
+         <item>NATIONAL HOSPITAL</item>
+         <item>DADAR SURGICAL MAT. HOSPITAL</item>
+         <item>DR. PINTO\'S HOSPITAL</item>
+         <item>FAMILY CLINIC</item>
+         <item>DR. C. L. ZAVEIRI</item>
+         <item>DADAR CLINIC</item>
+         <item>GUPTE MAT. &amp; SURGICAL HOME</item>
+         <item>DR. DESAI LATE HAVALKAR MEMORIAL MAT. HOME &amp; GEN. HOSPITAL</item>
+         <item>VIJAY CLINIC</item>
+         <item>BIRJE HOSPITAL</item>
+         <item>SHOBHANA NURSING HOME</item>
+         <item>BELLA TEA NURSING HOME</item>
+         <item>DR. VASE\'S MAT. SURGICAL HOSPITAL</item>
+         <item>SANE\'S NURSING HOME</item>
+         <item>DR. DONALD\'S MAT. HOME</item>
+         <item>DR. FONSECA\'S MAT. &amp; SURGICAL HOME</item>
+         <item>DR. INGAL\'S SURGICLA &amp; MAT HOSPITAL</item>
+         <item>SHREE MAT. &amp; NURSING HOME</item>
+         <item>DR. THAKUR\'S HOSPITAL</item>
+         <item>NIRMAL NURSING HOME</item>
+         <item>SINGHAVVI MAT. NURSING HOME</item>
+         <item>SHRI SARASWATI MAT. NURSING HOME</item>
+         <item>TRIVENDI NURSING HOME</item>
+         <item>JAGTAP MAT. &amp; GEN. SURGICAL NURSING HOME</item>
+         <item>PREGANANCY ADVICE AND SERGICAL FAMILY HOSPITAL</item>
+         <item>SURLATA HOSPITAL</item>
+         <item>SIDDHIVINAYAK MAT. &amp; SURGICAL NURSING  HOME</item>
+         <item>SHOBHANA NURSING HOME</item>
+         <item>SHIVINI MAT. HOME</item>
+         <item>YSHODHHAN HOSPITAL MAT. &amp; NURSING HOME</item>
+         <item>MAHIM CLINIC</item>
+         <item>PIKALE NURSING HOME</item>
+         <item>DR. (MRS.) A. I. KAZI NEW MAT. &amp; SURGICAL CLINIC</item>
+         <item>DADHICHI NURSING HOME</item>
+         <item>PUSHPA KUNJ CLINIC &amp; NURSING HOME</item>
+         <item>DURGA CLINIC &amp; MAT. HOME</item>
+         <item>NEW MATENITY &amp; SURGICAL CLINIC</item>
+         <item>RAHUL MAT. &amp; SURGICAL NURSING HOME</item>
+         <item>KHERWADI MUNICIPAL MATERNITY HOME</item>
+         <item>V.N. DESAI MUNICIPAL GENERAL HOSPITAL</item>
+         <item>NANDAN MATERNITY SURGICAL HOME</item>
+         <item>URBAN HEALTH CENTRE</item>
+         <item>GOVERNMENT DISP-CUM- MAT. HOME</item>
+         <item>SECTION HOSPITAL</item>
+         <item>DR. SHEREKAR HOSPITAL</item>
+         <item>RAHUL MAT. &amp; SURGICAL NURSING HOSPIAL</item>
+         <item>SONA CLINIC HOSPITAL</item>
+         <item>K.B. BHABHA HOSPITAL</item>
+         <item>ADARSH MATERNITY &amp; SURG. NURSING HOME</item>
+         <item>DR. RAJANI\'S MAT. &amp; SURG. NURSING HOME</item>
+         <item>DR. GULRAJANI\'S MAT. &amp; GYNAEC. HOSPITAL</item>
+         <item>DR. MARTIN\'S NURSING HOME</item>
+         
+         <item>MANDAR NURSING HOME</item>
+         <item>BARRFIWALA CLINIC</item>
+         <item>DR. (MISS.) MAHASHWETA V. BATT\'S HOSPITAL FOR WOMEN.</item>
+         <item>DR. GANATRA\'S MAT. &amp; GYNEC. HOSPITAL</item>
+         <item>JAIDEVI MAT. &amp; NURSING HOME</item>
+         <item>AJINKYA HOSPITAL</item>
+         <item>SUPRIYA MATERNITY HOME</item>
+         <item>DR. MIRA</item>
+         <item> RAISINGHANEY  NURSING HOME</item>
+         <item>DR. CHANDRAKANT ABHISHEK AROGYA DHAM MATERNITY HOME &amp; GENERAL NURSING HOME</item>
+         <item>SANJIVANI NURSING HOME</item>
+         <item>DR. KASHIBAI MAT. &amp; NURSING HOME</item>
+         <item>SARLA NURSING HOME</item>
+         <item>SMRUTI NURSING HOME</item>
+         <item>B.C. J. GENERAL HOSPITAL</item>
+         <item>HOLY FAMILY HOSPITAL</item>
+         <item>DR. GUPTE\'S LYING IN SURGICAL HOSPITAL</item>
+         <item>LAXMI PADAM MATERNITY  &amp; NURSING HOME</item>
+         <item>DEVI MAT. &amp; SURGICAL HOSPITAL</item>
+         <item>DR. DESHMUKH MAT. &amp; FAMILY PLANNING HOSPITAL</item>
+         <item>LILLY MAT. &amp; SURGICAL HOME</item>
+         <item>ASHOKA SURGICAL HOSPITAL</item>
+         <item>LINK MAT. &amp; SURGICALHOME</item>
+         <item>SHANTI NURSING &amp; POLYCLINIC</item>
+         <item>PALI HOSPITAL &amp; NURSING HOME</item>
+         <item>DIAMOND POLYCLINIC &amp; NURSING HOME</item>
+         <item>ATIT\'S HOSPITAL</item>
+         <item>KUMAR CLINIC</item>
+         <item>SAFALYA MATERNITY &amp; NURSING HOME</item>
+         <item>MOTHER CARE NURSING HOME</item>
+         <item>MATERNITY AND SURGICAL NURSING HOME</item>
+         <item>CHAMAN MEDICAL CENTRE</item>
+         <item>EXCEL NURSING HOME</item>
+         <item>AGARWAL NURSING HOME</item>
+         <item>SHRUTI NURSING HOME</item>
+         <item>PATKA\'S MATERNITY HOME</item>
+         <item>ANAND CLINIC &amp; NURSING HOME</item>
+         <item>DR. PARMAR\'S MATTERNITY &amp; SURGICAL HOSPITAL</item>
+         <item>PARLE TILAK MATERNITY HOSPITAL</item>
+         <item>BHAVAN NURSING HOME</item>
+         <item>DR. SHAH\'S MATERNITY NURSING HOME</item>
+         <item>SUMITRABEN WAGH MATERNITY HOME</item>
+         <item>MATOSHRI UMABAI RANE MATERNITY &amp; NURSING HOME</item>
+         <item>MAHALAXMI MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>SNEHA SUTIKA GRIHA</item>
+         <item>VIJAY MATERNITY HOME</item>
+         <item>DR. (SMT.) PARULEKAR MATERNITY HOME</item>
+         <item>DR. (MRS.) SARLA AZAD MATERNITY &amp; NURSING HOME</item>
+         <item>DUDHICH NURSING &amp; MATERNITY HOME</item>
+         <item>DR. RAO\'S MATERNITY &amp; NURSING HOME</item>
+         
+         <item>GOKUL MATERNITY &amp; SURGICAL &amp; GENERAL NURSING HOME</item>
+         <item>KASTURBA TB HOSPITAL</item>
+         <item>E. S.I. S. HOSPITAL</item>
+         <item>SAURABH CLINIC</item>
+         <item> SANJAWALA\'S MATERNITY &amp; NURSING HOME</item>
+         <item>SITAL MATERNITY HOME</item>
+         <item>DR. RANE MATERNITY HOME</item>
+         <item>DR. V.N. SIRODKAR MATERNITY HOME</item>
+         <item>PRIYADIP MATERNITY HOME</item>
+         <item>DR. SUMITA V. PARULAKAR</item>
+         <item>HIRABEN SHAH MATERNITY HOME</item>
+         <item>MUKUND MATERNITY NURSING HOME</item>
+         <item>VEENA MATERNITY HOME</item>
+         <item>JAIN MATERNITY HOME</item>
+         <item>NAVJIVAN MATERNITY HOME</item>
+         <item>ASHISH MATERNITY &amp; NURSING HOME</item>
+         <item>MALIKA MATERNITY &amp; GENERAL NURSING HOME</item>
+         <item>INDU MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>MAROL MUNICIPAL MATERNITY HOME</item>
+         <item>SUNEETA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>SUSHRUT MATERNITY HOME &amp; CHILD HEALTH CLINIC</item>
+         <item>PIYUSH HOSPITAL</item>
+         <item>NEETI PRASUTI GRAHA</item>
+         <item>OSHIWARA MUNICIPAL MATERNITY HOME</item>
+         <item>DR. RANE\'S UMAYUSH HOSPITAL</item>
+         <item>JEEVAN VIKAS KENDRA</item>
+         <item>PARLESHWAR MATERNITY &amp; SURGICAL HOSPITAL</item>
+         <item>NEETI NURSING HOME</item>
+         <item>DR. GUPTA\'S MATERNITY AND SURGICLA HOSPITAL</item>
+         <item>JOGESHWARI MATERNITY &amp; NURSING HOME</item>
+         <item>SHREE DURGA MATERNITY &amp; SURGICAL HOME</item>
+         <item>SANGITA MATERNITY &amp; GYANEC. HOSPITAL</item>
+         <item>DR. JOSHI\'S SURGICAL &amp; MATERNITY HOSPITAL</item>
+         <item>PARAS NURSING HOME</item>
+         <item>VISHWABHARATI NURSING HOME</item>
+         <item>DR. BAXI\'S POLYCLINIC &amp; GENERAL HOSPITAL</item>
+         <item>ASHIRWAD MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>NANDADEEP MATERNITY &amp; SURGICAL HOSPITAL.</item>
+         <item>BALABHAI NANAVATI HOSPITAL</item>
+         <item>DR. R.N.COOPER MUNICIPAL GENERAL HOSPITAL</item>
+         <item>NUTAN NURSING HOME</item>
+         <item>DR. DAVE\'S CLINIC</item>
+         <item>DR. DAFTARI\'S TOTAL CARE CLINIC</item>
+         <item>PARLE HOSPITAL</item>
+         <item>SUN FLOWER NURSING  HOME</item>
+         <item>DR. NAIK\'S HOSPITAL</item>
+         <item>DR. R. M. RAJANI\'S MATERNITY HOME</item>
+         <item>SHARDHA VIHAR HOSPITAL</item>
+         <item>NAMRATA NURSING HOME</item>
+         <item>ST. CATHERINES NURSING HOME</item>
+         <item>PARIJAT MATERNITY NURSING HEME</item>
+         <item>ROHINI HOSPITAL (MATERNITY &amp; GYNAEC)</item>
+         <item>IRLA NURSING HOME</item>
+         <item>MATERNITY &amp; NURSING HOME</item>
+         <item>MAHIM HOSPITAL POLYCLINIC</item>
+         <item>APARNA MATERNITY &amp; NURSING HOME</item>
+         <item>BELLE VUE POLYCLINIC</item>
+         <item>BOLLGI MATERNITY SURG. NURSING HOME</item>
+         <item>VIBHA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>ANKUR MATERITY &amp; SURGICAL NURSING HOME</item>
+         <item>CHAVAN MATERNITY &amp; NURSING HOME</item>
+         <item>AKANKASHHA MATERNITY SURGICAL HOME</item>
+         <item>MAMTA MATERNITY &amp; NURSING HOME</item>
+         <item>OSHIWARA DUMPING GROUND MATERNITY HOME</item>
+         <item>DR. KERKAR\'S GEN. HOSPITAL</item>
+         <item>TRUPTI MATERNITY HOME</item>
+         <item>HEENA MAT. &amp; SURG. NURSING HOME</item>
+         <item>SHAKTI HOSPITAL</item>
+         <item>ROOP NURSING HOME</item>
+         <item>NOOR NURSING HOME</item>
+         <item>GAIKWAD MEDICAL CENTRE &amp; HOSPITAL</item>
+         <item>VERSOVA MAT. HOSPITAL</item>
+         <item>KRIPA MATERNITY NURSING HOME</item>
+         <item>F.D.K.MUNICIPAL MATERNITY HOME</item>
+         <item>SQUATTERS COLONY MUNICIPAL MATERNITY HOME</item>
+         <item>WESTERN GEN. HOSPITAL</item>
+         <item>UNITY NURSING HOME</item>
+         
+         <item>(MEDICAL MATERNITY &amp; SURGICAL)</item>
+         <item>AMEYA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>SHREE MUMBADEVI HOMEOPATHIC HOSPITAL</item>
+         <item>KHAN BAHADUR H.K.BHABHA MUNICIPAL GENERAL HOSPITAL</item>
+         <item>MUNICIAPAL MATERNITY HOME</item>
+         <item>DR. P.J. DESHPANDE SURGICAL &amp; MATERNITY HOME</item>
+         <item>DR. AGASHE\'S MATERNITY HOSPITAL</item>
+         <item>CHANDA MATERNITY SURGICAL NURSING HOME AND DIAGONOSTIC CENTRE</item>
+         <item>NEHRU NAGAR MEDICAL CENTRE</item>
+         <item>LATA MITTAL CLINIC &amp; NURSING HOME</item>
+         <item>GURUKRIPA NURSING HOME</item>
+         <item>MANORAM MATERNITY HOME</item>
+         <item>SAPNA MATERNITY &amp; GYNAEC. HOSPITAL</item>
+         <item>J.P. MEDICAL CENTRE</item>
+         <item>CHEMBUR MUNICIPAL MATERNITY HOME</item>
+         <item>BEGGERS\' HOME FOR FEMALES</item>
+         <item>SAI MATERNITY NURSING HOME</item>
+         <item>CHEMBUR NURSING HOME</item>
+         <item>SIDHIGIRI CLINIC</item>
+         <item>LAXMI MATERNITY HOME</item>
+         <item>CHEMBUR HOSPITAL</item>
+         <item>SATDEV NURSING HOME</item>
+         <item>DR. R. K. UPPONI MATERNITY HOME</item>
+         <item>MANGAL MATERNTIY HOME &amp; POLY-CLINIC</item>
+         <item>DR. SHASHIKANT K. SHAH</item>
+         <item>MEERA NURSING HOME</item>
+         <item>ASHWINI MATERNITY &amp; GYNAEC. HOSPITAL</item>
+         <item>CHOUGULE HOSPITAL</item>
+         <item>ANAND HOSPITAL</item>
+         <item>GURU NANAK MATERNITY HOSPITAL</item>
+         <item>KHER HOSPITAL</item>
+         <item>DR. (MRS.) U.S BHAGWAT</item>
+         <item>VELANKAR HOSPITAL &amp; DR. PARANJAPE MATERNITY HOME</item>
+         <item>DR. (MRS.) KUNJANNAM POULOSW\'S CHEMBUR NURSING HOME</item>
+         <item>DEONAR MUNICIPAL MATERNITY HOME</item>
+         <item>SHASHIKANT HOSPITAL</item>
+         <item>R.C.F. HOSPITAL</item>
+         
+         <item>CHANDRA MATERNITY HOSPITAL</item>
+         <item>SAI PRASAD MATERNITY &amp; NURSING HOME</item>
+         <item>CHEETA CAMP MATERNITY HOME</item>
+         <item>CENTENARY HOSPITAL</item>
+         <item>BEGWA HOSPITAL</item>
+         <item>SUBURBAN MATERNITY &amp; NURSING HOME</item>
+         <item>DR. (MISS). CHENDRA  L. SHAH MATERNITY &amp; NURSING HOME</item>
+         <item>PAWAI MATERNITY NURSING HOME</item>
+         <item>GHATKOPAR MATERNITY &amp; SURGICLA HOSPITAL</item>
+         <item>SARVODAYA HOSPITAL</item>
+         <item>SHUSHRUSHA CITIZEN\'S CO-OPERATIVE HOSPITAL</item>
+         <item>MAMATA MATERNITY HOME &amp; NURSING HOME</item>
+         <item>VORA MATERNITY &amp; SURGICAL HOSPITAL</item>
+         <item>DR. VINOD B. JOSHI\'S  MATERNITY HOME &amp; NURSING HOME</item>
+         <item>RAMGI HOSPITAL &amp; NURSING HOME</item>
+         <item>JYOTI MATERNITY &amp; NURSING HOME</item>
+         <item>ASHWINI MATERNITY SURGICAL NURSING HOME</item>
+         <item>SHANTINIKETAN NURSING HOME</item>
+         <item>DR. SHERKAR HOSPITAL  JOSHIWADI</item>
+         <item>MANASU MATERNITY HOME</item>
+         <item>SETH V. C. GANDHI &amp; M. A. VORA MUNICIPAL GENERAL HOSPITAL RAJAWADI HOSPITAL</item>
+         <item>SANT MUKTABAI MUNICIPAL GENERAL HOSPITAL</item>
+         <item>SONA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>DR. MANISHA MATERNITY HOME</item>
+         <item>SUKH SHANI HOSPITAL</item>
+         <item>DR. BHASKAR PATEL HOSPITAL FOR WOMEN</item>
+         <item>PANCHOLI HOSPITAL</item>
+         <item>DEWANG NURSING PVT. LTD.</item>
+         <item>POOJA MATERNITY NURSING HOME</item>
+         <item>DR. HEMANT BHATT\'S MOTHER &amp; CHILD CARE CLINIC</item>
+         <item>VIVEK MATERNITY &amp; NURSING HOME</item>
+         <item>DR. TRIVEDI\'S MATERNITY &amp; NURSING HOME</item>
+         
+         <item>LAPAROSCOPY &amp; FAMILY PLANNING HOSPITAL</item>
+         <item>SAMARTH HOSPITAL</item>
+         <item>PUSHPAK MATERNITY AND NURSING HOME</item>
+         <item>MUNICIPAL MATERNITY HOME</item>
+         <item>BAGWE MATERNITY HOME</item>
+         <item>DR. WARKE M. G. HOSPITAL</item>
+         <item>SADGURU SAINATH MATERNITY HOME</item>
+         <item>DR. ROY\'S MATERNITY HOME</item>
+         <item>DR. BHATT\'S MATERNITY HOSPITAL</item>
+         <item>PATNI MATERNITY HOME &amp; GYNAECLOGICAL NURSING HOME</item>
+         <item>AVINASH NURSING HOME</item>
+         <item>MATASHREE GOMATI HOSPITAL</item>
+         <item>DAMYANTI MATERNITY HOME</item>
+         <item>KAPADIA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>USHA MATERNITY &amp; NURSING HOME</item>
+         <item>AREY MILK COLONY GENERAL HOSPITAL</item>
+         <item>ANUPAM MATERNITY &amp; NURSING HOME</item>
+         <item>YESHODA MATERNITY &amp; NURSING &amp; SURGICAL HOME</item>
+         <item>DAT MATERNITY &amp; SURGICAL HOME</item>
+         <item>ANAND NAGAR NURSING HOME DR. BHATT\'S HOSPITAL</item>
+         <item>NEELAM NURSING HOME</item>
+         <item>ENCLAVE MATERNITY HOME</item>
+         <item>SUKHADA MATENITY &amp; NURSING HOME</item>
+         <item>NEMANI MATERNITY  &amp; NURSING HOME</item>
+         <item>MUNICIPAL MATERNITY HOME</item>
+         
+         <item>CHOKSY MATERNITY HOME</item>
+         <item>DR. VELANKAR WOME\'S LYING HOSPITAL</item>
+         <item>DR. DESAI MATERNITY HOME</item>
+         <item>MUNICIPAL GENERAL HOSPITAL M. W. DESAI MUNICIPAL GENERAL HOSPITAL</item>
+         <item>DR. CHANDRAKANT B. JOSHI\'S EYE &amp; MATERNITY HOME</item>
+         <item>DR. SUCHAK\'S MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>ABHIJIT HOSPITAL (MATERNITY</item>
+         <item> GENERAL &amp; SURGICAL)</item>
+         <item>KALPANA NURSING HOME</item>
+         <item>DR. APTE\'S MATERNITY &amp; NURSING HOME</item>
+         <item>DR. FERNANDES MAT. &amp; NURSING HOME</item>
+         <item>KOTHAI MATERNITY HOME</item>
+         <item>JOYTI MATERNITY &amp; NURSING HOME</item>
+         <item>DR. SUCHAK\'S HOSPITAL</item>
+         <item>MATRUCHHAYA MATERNITY &amp; NURSING HOME</item>
+         <item>FLITE MATERNITY HOME &amp; POLYCLINIC</item>
+         <item>DR. RULA\'S MATERNITY HOME &amp; GENERAL HOSPITAL</item>
+         <item>DR. P.R. SHAH\'S MATERNITY HOME &amp; GENERAL HOSPITAL</item>
+         <item>DR. KAPADIA MATERNITY  &amp; GENERAL HOSPITAL</item>
+         <item>SHRADHA GYNAEC.&amp;  MATERNITY  HOSPITAL</item>
+         <item>CHETAN EYE &amp; MATERNITY HOSPITAL</item>
+         <item>DR. GUPTA\'S MATERNITY HOME &amp; NURSING HOME</item>
+         <item>ASHA MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>DR. PARALKAR\'S SHREE NURSING HOME</item>
+         <item>SAROGI MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>MAHAVIR MAT. &amp; GEN. HOSPITAL</item>
+         <item>ROHANKAR MATERNITY &amp; M. S. G. HOME</item>
+         <item>MARVE NURSING HOME</item>
+         <item>GRACE MATERNITY &amp; NURSING HOME</item>
+         <item>SARITA NURSING HOME</item>
+         <item>D. VASE HOSPITAL</item>
+         <item>NEELAM NURSING HOME</item>
+         <item>SANGITA MATERNITY &amp; NURSING HOME</item>
+         <item>JAY POLYCLINIC MATERNITY &amp; NURSING HOME</item>
+         <item>BHAVSAR MATERNITY &amp; NURSING HOME</item>
+         <item>DR. YATIN SHAH\'S MATERNITY &amp; NURSING HOME</item>
+         <item>VATSALYA DR. SHETH\'S MATERNITY HOSPITAL DENTAL CLINIC</item>
+         <item>DR. KHATRI HIMANSHU MATERNTY HOME</item>
+         <item>PITRUCHHAYA HOSPITAL</item>
+         <item>BAHL NURSING HOME &amp; MATERNITY HOME</item>
+         <item>PANCHVATI HOSPITAL</item>
+         <item>MEGHA HOSPITAL</item>
+         <item>AHIMA NURSING HOME</item>
+         <item>RADHABAI DALVI HOSPITAL &amp; MATERNITY HOME</item>
+         <item>USHA MATERNITY HOME SHANTILAL</item>
+         <item>SHREYAS MATRANI NURSING HOME</item>
+         <item>J.M.C. MEDICAL CENTRE &amp; NURSING HOME</item>
+         <item>AKURLI ROAD MUN. MAT. HOME</item>
+         <item>ANKUR HOME FOR WOMEN</item>
+         
+         <item>LAXMI CLINIC</item>
+         <item>DR. SHAH\'S GENERAL MATERNITY HOME &amp; HOSPITAL</item>
+         <item>JEEVAN POLYCLINIC HOSPITAL</item>
+         <item>SAIBABA MAT. HOME &amp; NURSING HOME</item>
+         <item>SUBSHRUT MATERNITY &amp; NUSING GYNAEC. HOSPITAL</item>
+         <item>NAMITA POLYCLINIC HOSPITAL</item>
+         <item>JAYSHREE HOSPITAL</item>
+         <item>DEEPAK POLYCLINIC &amp; NURSING HOME</item>
+         <item>CENTENARY HOSPITAL</item>
+         <item>YESHWANT HOSPITAL</item>
+         <item>DR. USHA MATERNITY &amp; NUSING GYNAEC. HOSPITAL</item>
+         <item>ASHIRWAD  MATERNITY &amp; NUSING GYNAEC. HOME</item>
+         <item>NAGALKAR NUSING  HOME</item>
+         <item>LEELA MATERNITY &amp; NUSING HOME</item>
+         <item>SMT. R.C.L BHANNSALI BORIVALI MUNICIPAL MATERNITY HOME</item>
+         <item>SUMATI MATERNITY HOME</item>
+         <item>PALKAR MATERNITY HOME</item>
+         <item>MEHTA MATERNITY HOME</item>
+         <item>MATRUCHAYA MATERNITY &amp; SURGICAL HOME</item>
+         <item>PARIKH MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>BHANDARKAR HOSPITAL FOR WOMEN &amp; CHILDREN</item>
+         <item>AHUJA MATERNITY HOME</item>
+         <item>HEMANGI MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>HARILAL BHAGWATI  MUNICIPAL HOSPITAL</item>
+         <item>Y. M. BELINKAR MATERNITY HOME</item>
+         <item>PATNI NURSING  HOME</item>
+         <item>NAVJEEVAN MATERNITY &amp; SURGICAL HOME</item>
+         <item>JOSHI MATERNITY HOSPITAL</item>
+         <item>SANGHAVI MATERNITY HOSPITAL</item>
+         <item>REKHA POLYCLINIC &amp; PALKAR NURSING MATENITY &amp; SURGICAL HOME</item>
+         <item>GAURI MATENITY &amp; NURSING HOME</item>
+         <item>DR. THAKA\' S MOTHER CHILD HOSPITAL</item>
+         <item>MAMTA MATERNITY HOME</item>
+         <item>PANDYA MATERNITY HOME</item>
+         <item>DR. SUSHIL HOSPITAL</item>
+         <item>JOSHI MATERNTIY HOSPITAL</item>
+         <item>NANDINI HOSPITAL</item>
+         <item>HEMANGI MATERNITY &amp; GYNAEC. HOSPITAL</item>
+         <item>CHANDRA MAT. &amp; SURGICAL HOSP.</item>
+         
+         <item>SHANTIDHAM MATERNTIY HOME</item>
+         <item>RAJENDRA HOSPITAL &amp; POLYCLINIC</item>
+         <item>DR. KULDANI HOSPITAL</item>
+         <item>ROSE PATEL NURSING HOME</item>
+         <item>MUKTI NURSING HOME</item>
+         <item>ANAND NURSING HOME</item>
+         <item>SUNIT NURSING HOME</item>
+         <item>ANAND NURSING HOME</item>
+         <item>DR. DESIS SHREEJI HOSPITAL</item>
+         <item>KARUNA HOSPITAL</item>
+         <item>DIAMOND MATENITY &amp; NURSING HOME</item>
+         <item>SUSHRUT MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>K. K. MATERNITY &amp; GENERAL HOSPITAL RAGHULAL ROAD</item>
+         <item>SARAF HOSPITAL</item>
+         
+         <item>NAVAL HOSPITAL</item>
+         <item>INDIAN INSTITUTE OF TECHNOLOGY</item>
+         <item>DR. SADWIK MATERNITY HOME</item>
+         <item>SHAH CLINIC MATERNITY HOME</item>
+         <item>DR. BHATIA\'S HOSPITAL MATERNITY &amp; NURSING HOME</item>
+         <item>MANGALA MATERNTIY &amp; SURGICAL HOSPITAL</item>
+         <item>DR. BABASAHED AMBEDKAR MUNICIPAL MATERNITY HOME</item>
+         <item>ANCHITA MATERNTIY &amp; NURSING &amp; SURGICAL HOSPITAL</item>
+         <item>DIVINE MATERNITY &amp; NURSING HOME</item>
+         <item>DR. BHAGWAT MEDICAL CENTER</item>
+         <item>BRINDA NURSING HOME</item>
+         <item>SHANTI MATERNTIY CLINIC</item>
+         <item>PAWAI MATERNITY &amp; NURSING HOME</item>
+         <item>SHUSHRUSHA HOSPITAL</item>
+         <item>ANKUR MATERNITY HOME</item>
+         <item>SHARDA HOSPITAL</item>
+         <item>DR. KOPLIKAR GENERAL HOSPITAL</item>
+         <item>M.S. MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>MADHU  POLYCLINIC &amp; NURSING HOME</item>
+         <item>PAWAR POLYCLINIC  &amp; HOSPITAL</item>
+         <item>PADMALAYA MATERNITY HOME</item>
+         <item>SHREE CHILDREN HOSPITAL  &amp;  MATERNITY HOME</item>
+         <item>MASAULI MATERNITY &amp; NURSING HOME</item>
+         <item>YASHWANT HOSPITAL</item>
+         <item>S.J.D.C. MUNICIPAL MATERNITY HOME</item>
+         <item>MUNICIPAL GENENAL HOSPITAL</item>
+         <item>MODERN MATERNITY &amp; NURSING HOME</item>
+         <item>NAVJIVAN MATERNITY &amp; NURSING HOME</item>
+         <item>DR. BHAGWAT\'S MATERNITY HOME</item>
+         <item>MULUND POLYCLINIC MATERNITY &amp; NURSING HOME</item>
+         <item>DR. GONHTRA\'S MATERNTIY HOME</item>
+         <item>DR. BUCH\'S MATERNITY &amp; NURSING HOME</item>
+         <item>PRASANNA MATERNITY &amp; GYNAEC NURSING HOME</item>
+         <item>NAPPNMIT MATERNITY NURSING &amp; FAMILY PLANNING CENTRE</item>
+         <item>UPASANI MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>RAVINDRA MATERNITY SURGICAL AND NURSING HOME</item>
+         <item>RAVAL\'S MATERNITY HOME</item>
+         <item>ALKA MATERNITY AND NURSING HOME</item>
+         <item>CHANDRIKA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>PUSHPA NURSING HOME &amp; POLYCLINIC</item>
+         <item>DR. MRS. BKE\'S MATERNITY AND NURSING HOME</item>
+         <item>MEDICAL SUPERINTENDENT E.S.I.S. HOSPITAL</item>
+         <item>NAVJIAN MATERNITY HOME AND SURGICAL NURSING HOME</item>
+         <item>MAMTA HOSPITAL</item>
+         <item>DR. SABNIS MATERNITY AND NURSING HOME</item>
+         <item>URAWASHI HOSPITAL &amp; SURGICAL MATERNITY &amp; GENERAL HOSPITAL</item>
+         <item>OMKAR SURGICAL AND MATERNITY HOME</item>
+         <item>SANJIVANI HOSPITL</item>
+         <item>MULUND NURSING HOME</item>
+         <item>ANAND MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>APARNA HOSPITAL</item>
+         <item>VIDHATA MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>SHREE SAI MATERNITY &amp; SURGICAL NURSING HOME</item>
+         <item>MALDE NURSING HOME</item>
+         <item>GOKULDAS TEJPAL HOSPITAL</item>
+         <item>HABIB HOSPITAL</item>
+         <item>AJAY AMRUTLAL SIRIN H.N</item>
+         <item>D.S KOTHARI NURSING HOME</item>
+         <item>A V KERKAR N.H</item>
+         <item>NAIR DENTAL HOSPITAL</item>
+         <item>NAGPADA POLICE HOSPITAL</item>
+         <item>PETRO MAT. &amp; NURSING HOME</item>
+         <item>MUNCIPAL EYE HOSPITAL</item>
+         <item>NORTON HOSPITAL</item>
+         <item>LION TARACHAND BAPA HOSPITAL &amp; RESEARCH</item>
+         <item>TALVALKAR NURSING HOME &amp; MATERNITY</item>
+         <item>SWASTIK NURSING HOME</item>
+         <item>ACWORTH MUNCIPAL HOSPITAL FOR LEPROSY</item>
+         
+         <item>TATA MEMORIAL HOSPITAL</item>
+         <item>SANJIVINI SUGRICAL NURSING HOME</item>
+         <item>ASHWINI CHILDRENS HOSPITAL</item>
+         <item>GOKHALE HOSPITAL</item>
+         <item>BAWDEKAR ORTHROPEDIC HOSPITAL</item>
+         <item>DHANVANTRI HOSPITAL</item>
+         <item>RAHEJA HOSPITAL (DAIBETIS CENTER)</item>
+         <item>RADHIBAI CHEST HOSPITAL</item>
+         <item>SUSHRUSHA HOSPITAL</item>
+         <item>TRIVENI NURSING HOME</item>
+         <item>E.S.I.S HOSPITAL</item>
+         <item>ASHA ZAVERI NURSING HOME</item>
+         <item>ASHA RAJADHYAKSHA NURSING HOME</item>
+         <item>RAMKRISHNA MISSION CHARITABLE GENERAL HOSPITAL</item>
+         <item>ASHWINI NURSING HOME</item>
+         <item>WESTERN RLY. HEALTH UNIT</item>
+         <item>DR. GOYAL EYE HOSPITAL</item>
+         <item>BHARATIYA AROGYA NIDHI HOSPITAL</item>
+         <item>ANDHERI MAHANAGAR PALIKA PARSUTI GRUHA</item>
+         <item>LOTUS EYE HOSPITAL</item>
+         <item>NETAJI SUBHASH HOSPITAL</item>
+         <item>CHUNNABHATTI MATERNITY HOSPITAL</item>
+         <item>SHATABDI HOSPITAL</item>
+         <item>B.A.R.C. HOSPITAL</item>
+         <item>CHANDRA MATERNITY HOSPITAL</item>
+         <item>MEENAZ NURSING HOME</item>
+         <item>SANDHYA NURSING HOME</item>
+         <item>MAA RUGNALAYA</item>
+         <item>H.J DOSHI GHATKOPAR HINDU SABHA</item>
+         <item>S.K PATIL HOSPITAL</item>
+         <item>EVERSHINE ORTHROLOGICAL HOSPITAL</item>
+         <item>GIRNAR ORTHOPEADIAC HOSPITAL</item>
+         <item>DIAMOND ORTHOPEADIC HOSPITAL</item>
+         <item>AGARWAL HOSPITAL</item>
+         <item>BALIGA NURSING HOME</item>
+         <item>BORIVALI MATERNITY HOSPITAL</item>
+         <item>SHATABADI HOSPITAL</item>
+         <item>JOBANPUTRA GENRAL HOSPITAL</item>
+         <item>SAVITRIBAI PHULE  BHANDUP MATERNITY HOME</item>
+         
+         <item>SHATABDI MUNICIPAL HOSPITAL</item>
+        3 <item>E.S.I.S HOPSPITAL</item>
+         <item> MG MEMORIAL</item>
+         <item>SUVARNA GENERAL HOSPTAL</item>
+         <item>HOLY SPIRIT HOSPITAL &amp;  BB</item>
+         <item>P D HINDUJA NATIONAL HOSPITAL</item>
+         <item>LILAVATI HOSPITAL</item>
+         <item>L.T.MUN.GEN.HOSPITAL</item>
+         <item>CUMBALLA HILL HOSPITAL &amp;  HEART INSTITUTE</item>
+         <item>CHILDREN ORTHOPEDIC HOSPITAL</item>
+         <item>WADIA CHILDREN HOSPITAL</item>
+         <item>URBAN  HEALTH CENTER</item>
+         <item>HAJI MOHD. SABU SIDDIK MAT. HOME</item>
+         <item>CURRY ROAD AROGA KENDRA</item>
+         <item>PRABHADEVI MAT. HOME</item>
+         
+         <item>ABHUDAYA NAGAR AROGYA KENDRA</item>
+         <item>NAIGAON MATERNITYHOSPITAL &amp; AROGYAYA KENDRA</item>
+         <item>MAHIM MATERNITY HOME AROGYA KENDRA</item>
+         <item>VELKAR WADI HEALTH POST</item>
+         <item>INDU CLINIC</item>
+         <item>DR ASHOK SHROFF EYE HOSPITAL</item>
+         <item>DR ZAVERI B N</item>
+         <item>AJIT MEHTA HOSPITAL FOR WOMEN CARE</item>
+         <item>ATUL HOSPTAL</item>
+         <item>A V BALGI MEMORIAL HOSPITAL</item>
+         
+         <item>DEV NURSING HOME</item>
+         <item>BOMBAY CITY EYE INSTITUTE (HOSPITAL)</item>
+         <item>BAANJI EYE HOSPITAL</item>
+         <item>BYCULLA NURSING HOME (SURGICAL &amp; MATERNITY</item>
+         <item>BRAHMAN SAHAYAK HOSPITAL</item>
+         <item>GORITIDAN MITTAL AYRVEDIC HOSPITAL</item>
+         <item>DR PURANDARE HOSPITAL</item>
+         <item>ALI USMAN NURSING HOME</item>
+         <item>R L SHAH</item>
+         <item>IRANI NURSING HOME</item>
+         <item>H D MEMORIAL GANDHI HOSPITAL</item>
+         <item>FRACTURE ACCIDENT HOSPITAL</item>
+         <item>KHANDWALA HOSPITAL</item>
+         <item>POLYCLINIC &amp;  NURSING HOME</item>
+         <item>BLUE CROSS HOSPITAL &amp; MEDICAL PVT. LTD.</item>
+         <item>MAKHRIYA CLINIC &amp; NURSING HOME</item>
+         <item>RAKSHMI LYING IN HOSPITAL</item>
+         <item>RAMJIBEN ARYA HOSPITAL</item>
+         <item>LOTUS NURSING HOME</item>
+         <item>VIJAYKUMAR HOSPITAL</item>
+         <item>VIMAL PARIKH NURSING HOME</item>
+         <item>SHETTY NURSING HOME</item>
+         <item>KHERWADI MATERNITY HOME</item>
+         
+         <item>KARNIK NURSING HOME</item>
+         <item>KASHYAP NURSING  HOME</item>
+         <item>SHISHU SHUSHRUSHALAY</item>
+         <item>SANJEEV NURSING HOME</item>
+         <item>ANTOP HILL HOSPITAL</item>
+         <item>DR. VAZE NURSING HOME</item>
+         <item>NAVALKAR MEMO. MAT. HOSPITAL</item>
+         <item>PALKARS SURGICAL NURSING HOME</item>
+         <item>NEW MAMTA NURSING  HOME</item>
+         <item>BHARAT NURSING HOME</item>
+         <item>PIKALE NURSING HOME</item>
+         <item>SHREE SIDDHI VINAYAK MAT. &amp; NURSING HOME</item>
+         <item>MHASKAR NURSING HOME</item>
+         <item>DR. RANE\'S NURSING HOME</item>
+         <item>ASHA PAREKH HOSPITAL</item>
+         <item>AHIMSA HOSPITAL</item>
+         <item>KAMDAR NRSING HOME</item>
+         <item>ARADHNA INTENSIVE CARE NURSING HOME</item>
+         <item>APARNA NURSING HOME &amp; EYE HOSP.</item>
+         <item>PALI HOSP. &amp; NRSING HOME</item>
+         <item>RAKSHA CLINIC &amp; NURSING HOME</item>
+         <item>VIKAS POLYCLINIC &amp; NURSING HOME</item>
+         <item>SHANTI NURSING HOME</item>
+         <item>SHETTY NURSING HOME</item>
+         <item>SHRUTI NURSING HOME</item>
+         <item>SHREYAS NURSING HOME &amp; ORTHOPEADIC</item>
+         <item>ST. MARTIN NURSING HOME</item>
+         <item>SMRUTI NURSING HOME</item>
+         <item>AZAD NURSING HOME</item>
+         <item>ASHISH MAT. &amp; NURSING HOME</item>
+         <item>INDUSTRIAL MATERNTY &amp; SURGICAL NURSING HOME</item>
+         <item>KARBHARI NURSING HOME</item>
+         <item>KIRTI NURSING HOME</item>
+         <item>PATANKAR NURSING HOME</item>
+         <item>PRAKASH NURSING HOME</item>
+         <item>RACHANA MAT. &amp; SURG. NURSING HOME</item>
+         <item>RAO NURSING HOME</item>
+         <item>SNEHA GENERAL MAT. &amp; NURSING HOME</item>
+         <item>PATEL NURSING HOME</item>
+         <item>HIGHWAY MEDICAL CENTER</item>
+         <item>SANJIVANI NURSING HOME</item>
+         <item>SAURABH MATERNITY &amp; GEN. NURSING HOME</item>
+         <item>BHARNA NURSING HOME</item>
+         <item>MITRA NURSING HOME</item>
+         
+         <item>ANAMIKA NURSING HOME</item>
+         <item>ASHIRVAD MAT. &amp; NURSING HOME</item>
+         <item>IRLA NURSING HOME</item>
+         <item>KISHORE SURG. &amp; NURSING HOME</item>
+         <item>GANDHI NURSING HOME</item>
+         <item>JEWEL NURSING HOME</item>
+         <item>DR. KERKAR HOSPITAL</item>
+         <item>DR. NAIK HOSPITAL</item>
+         <item>DR. M.C. SHAH HOSPITAL</item>
+         <item>DHANVANTARI HOSPITAL</item>
+         <item>NANDADEEP MAT. &amp; SURG. HOME</item>
+         <item>PARIJAT GENERAL HOSPITAL</item>
+         <item>PARAS NUSING HOME</item>
+         <item>PURANDARE HOSPTAL</item>
+         <item>PUSHPA MAT. &amp; GEN. NURSING HOME</item>
+         <item>POOJA NURSING HOME</item>
+         <item>MAMTA NURSING HOME</item>
+         <item>UNITY NURSING HOME</item>
+         <item>RAHAT NURSING HOME</item>
+         <item>RIBA NURSING HOME</item>
+         <item>SHAH HOSPITAL</item>
+         <item>SHRADDHA VIHAR RUGNALAYA</item>
+         <item>SANGAM RUGNALAYA</item>
+         <item>SEA BEACH NURSING HOME</item>
+         <item>SOMAIYA SURG. HOSPITAL</item>
+         
+         <item>MANISH HOSPITAL</item>
+         <item>ABHIJEET NURSING HOME</item>
+         <item>AHURA NURSING HOME</item>
+         <item>ANAND NURSING HOME</item>
+         <item>ELITE HOSP. MAT. &amp; NURSING HOME</item>
+         <item>EVERSHINE NURSING HOME</item>
+         <item>JYOTI NURSING HOME &amp;  ICCU</item>
+         <item>JYOTI NURSING HOME</item>
+         <item>DR. KAMATH NURSING HOME</item>
+         <item>DR. BAHAL NURSING HOME &amp; MAT.</item>
+         
+         <item>DEEP MAT. &amp; NURSING HOME</item>
+         <item>NEMANI NURSING HOME</item>
+         <item>MARVE NURSING HOME</item>
+         <item>MARUTI NURSING HOME &amp; ICCU HOSPITAL</item>
+         <item>RUIA GENERAL HOSPITAL</item>
+         <item>VEENA NRUSING HOME</item>
+         <item>SANGEETA MAT. &amp; NURSING HOME</item>
+         <item>SAVLA NURSING HOME</item>
+         <item>HIMANSHU MAT &amp; NURSING HOME</item>
+         <item>SUJATA CLINIC &amp; NURSING HOME</item>
+         <item>ANUPAM MAT. &amp; NURSING HOME</item>
+         <item>D.C SHAH NURSING HOME</item>
+         <item>NADKARNI ORTHOPAEDIC HOSPITAL</item>
+         <item>DHANVANTRI NURSING HOME</item>
+         <item>NIMANI MAT. &amp; NURSINNG HOME</item>
+         <item>LAXMI MEMORIAL HOSPITAL</item>
+         <item>LEELA MAT. &amp; NURSING HOME</item>
+         <item>VASHDA MAT. NURSING HOME</item>
+         <item>SINGH NURSING HOME</item>
+         <item>SUKHADA MAT. NURISNG HOME</item>
+         <item>SUVIDHA MAT. &amp; NURSING HOME</item>
+         <item>HEERA NURSING HOME</item>
+         <item>DATTA MAT. &amp; NURSING HOME</item>
+         <item>MATOSHREE BHOMTI  MAT. &amp; NURSING HOME</item>
+         <item>ONCLAVE MAT. &amp; NURSING HOME</item>
+         <item>ANAND NURSING HOME</item>
+         <item>ASHISH NURSING HOME</item>
+         <item>ORTHOPEADIC &amp; SURGICAL HOSPITAL</item>
+         <item>KAMATH NURSING HOME</item>
+         <item>KINI NURSING HOME</item>
+         <item>KIRIT PATEL NURSING HOME</item>
+         <item>CRYSTAL NURSING HOME</item>
+         <item>KAHTAU HOSPITAL</item>
+         <item>GANDHI NURSING HOME</item>
+         <item>GORAI MAT. &amp; NURSING HOME</item>
+         <item>CHANDORKAR NURSING HOMR</item>
+         <item>DABHOYA NURSING HOME</item>
+         <item>DR. NARENDRA KUMAR HOSPITAL</item>
+         <item>NANDA NURSING HOME</item>
+         <item>NANDINI MAT. &amp; GEN. HOSPITAL</item>
+         <item>NARENDRA HOSPITAL</item>
+         <item>NAALKAR NURSING HOME</item>
+         <item>PANDYA SURGICAL HOSPITAL</item>
+         <item>PATEL NURSING HOME</item>
+         <item>PUNIT NURSING HOME</item>
+         <item>BALHANUMAN NURSING HOME</item>
+         <item>BHAGAT NURSING HOME</item>
+         <item>MANDAPESHWAR HOSPITAL</item>
+         <item>MAMTA MAT. &amp; NURSING HOME</item>
+         <item>MOHIT HOSPITAL</item>
+         <item>RAJENDRA MAT. &amp; NURSING HOME</item>
+         <item>RANE ANAND NURSING HOME</item>
+         <item>REKHA POLYCLINIC &amp; PALKAR NURSING HOME</item>
+         <item>ROBINDRA NURSING HOME</item>
+         <item>ROHIT NURSING HOME</item>
+         <item>VRUSHABH NURSING HOME</item>
+         <item>SHARDA NURSING HOME</item>
+         <item>SHAH SURG. &amp; NURSING HOME</item>
+         <item>SHREE SURGICAL &amp; NURSING HOME</item>
+         <item>SANKET SURGICAL HOSPITAL</item>
+         <item>SUNFLOWER SURGICAL CARE</item>
+         <item>SARVOTAM NURSING HOME</item>
+         <item>SUKHSAGAR HOSPITAL</item>
+         <item>SUMIT NURSING HOME</item>
+         
+         <item>ANKUR HOSPITAL</item>
+         <item>AMAR NURSING HOME</item>
+         <item>ARUN TRIVEDI NURSING HOME</item>
+         <item>ASHIRWAD MAT. &amp; GEN. HOSPITAL</item>
+         <item>USHA MAT. HOME</item>
+         <item>KANCHANGANGA NURSING HOME</item>
+         <item>KRISHNA NURSING HOME</item>
+         <item>GAYATRI GENERAL &amp; NURSING HOME</item>
+         <item>GRACE MATERNITY &amp; NURSING HOME</item>
+         <item>JAYSHREE NURSING HOME</item>
+         <item>DAINA MAT. &amp; SURG. HOME</item>
+         <item>DR. BALM FRACTURE &amp; ACCIDENT HOSPITAL</item>
+         <item>DARSHAN NURSING HOME</item>
+         <item>DWARKESH NURSING HOME</item>
+         <item>NUPUR MAT. &amp; NURSING HOME</item>
+         <item>NEW LIFE NURSING HOME</item>
+         <item>PARAS NURSING HOME</item>
+         <item>PAREKH NURSING HOME</item>
+         <item>PARVATIBAI CHAVHAN CARITABLE TRUST</item>
+         <item>BHATIA NURSING HOME</item>
+         
+         <item>RAICHURA MAT. HOME</item>
+         <item>VINAYAK NURSING HOME</item>
+         <item>VRINDAVAN NURSING HOME</item>
+         <item>VAISHNAV SEVA TRUST HOSPITAL</item>
+         <item>SHAH HOSPITAL</item>
+         <item>SHREYAS MASRANI HOSPITAL</item>
+         <item>SAIBABA MEDICAL NURSING HOME</item>
+         <item>SMRUTI NURSING HOME</item>
+         <item>AGASE MAT. &amp; SURGICAL NURSING HOME</item>
+         <item>AGRAVAL NURSING HOME</item>
+         <item>AMAR NURSING HOME</item>
+         <item>ARPAN NURSING HOME</item>
+         <item>A.L. SHIFA NURSING HOME</item>
+         <item>KURLA NURSING HOME</item>
+         <item>CHANDA NURSING HOME</item>
+         <item>PRAMILA MAT. NURSING HOME</item>
+         <item>BHUSLE HOSPITAL</item>
+         <item>PRIYANKA NURSING &amp; SURGICAL HOME</item>
+         <item>MAT. &amp; SURGICAL NURSING HOME</item>
+         <item>LATA MITHIL PLOYCINIC NURSING HOME</item>
+         <item>VARSHA HOSPITAL</item>
+         <item>SAPNA MAT. &amp; GYNAC. HOSPITAL</item>
+         <item>SAI HOSPITAL</item>
+         <item>SINDHU MAT. &amp; SUR NURSING HOME</item>
+         <item>ANSARI NURSING HOME</item>
+         
+         <item>AL JOHRA MAT. &amp; CHILD CLINIC</item>
+         <item>ASHA MAT. HOME</item>
+         <item>ASHA MAT. HOME CHEMBUR</item>
+         <item>CHANDRA MAT. HOSPITAL</item>
+         <item>JAGANNATH MAT. &amp; NRSING HOME</item>
+         <item>BINA NURSING HOME</item>
+         <item>MINAZ NURSING HOME</item>
+         <item>MEHTA NURSING HOME</item>
+         <item>SHASHIKANT HOSPITAL</item>
+         <item>SHIVAJI NAGAR MAT. &amp; GENERAL HOSPITAL</item>
+         <item>SANDHYA NURSING HOME</item>
+         <item>SAIPRASAD NURSING HOME</item>
+         <item>SAIBABA HOSPITAL</item>
+         <item>ANITA NURSING HOME`</item>
+         <item>SAMEER NURSING HOME</item>
+         <item>RISHABH NURSING &amp; I.C.C.U</item>
+         <item>JOY HOSPITAL</item>
+         <item>MANGAL ANAND HOSPITAL</item>
+         <item>RANE HOSPITAL</item>
+         <item>SHREE HOSPITAL</item>
+         <item>SUSHRUT NURSING HOME</item>
+         <item>HEGDE HOSPITAL &amp; SURG. NURSING HOME</item>
+         <item>KAMDAR NURSING HOME</item>
+         <item>DR. CHUDGAR NURSING HOME</item>
+         <item>DOSHI NURSING HHOME</item>
+         <item>USHA BAGVE HOSPITAL</item>
+         
+         <item>DEVANG MAT. NURSING HOME</item>
+         <item>MAMTA MATERNITY NURSING HOME</item>
+         <item>VINOD DOSHI NURSING HOME</item>
+         <item>BHASKAR PATEL HOSPITAL</item>
+         <item>ANKUR NURSING HOME</item>
+         <item>ANIKET NURSING HOME</item>
+         <item>M.S MAT. &amp; GENERAL HOSPITAL</item>
+         <item>GAYATRI WOMEN HOSPITAL</item>
+         <item>DR. TOLIYA PVT. NURSING HOME</item>
+         <item>BRINDA NURSING HOME</item>
+         <item>MADHU PLOYCLINIC &amp; NURSING HOME</item>
+         <item>MODI HOSPITAL</item>
+         <item>SHAKUTALA NURSING HOME</item>
+         <item>SAIKRUPA NURSING HOME</item>
+         
+         <item>MULUND GENERAL HOSPITAL</item>
+         <item>ASHWINI HOSPITAL</item>
+         <item>ADITI HOSPITAL</item>
+         <item>URVASHI HOSPITAL</item>
+         <item>TARA PATIL MEMORIAL HOSPITAL</item>
+         <item>DHANVANTRI HOSPITAL</item>
+         <item>NIRMALADEVI JAIN CAHRITABLE TRUST</item>
+         <item>PRAGATI HOSPITAL</item>
+         <item>BHAGWAT HOSPITAL</item>
+         
+         <item>SHREE MULUND VARDHMAN KALYAN KENDRA</item>
+         <item>APARNA NURSING HOME</item>
+         <item>ASHISH NURSING HOME</item>
+         <item>OMKAR NURSING HOME</item>
+         <item>KAPADIA NURSING HOME</item>
+         <item>K.M.T. HOSPITAL</item>
+         <item>KAUSALYA NURSING HOME</item>
+         <item>GOKUL HOSPITAL</item>
+         <item>JASRAJ HOSPITAL</item>
+         <item>DR. CHANDRIKA NURSING HOME</item>
+         <item>TOLANI NURSING HOME</item>
+         <item>NUT NURSING HOME</item>
+         <item>NAVJIVAN MAT. &amp; NURSING HOME</item>
+         <item>PANCHSHEEL NURSING HOME</item>
+         <item>PUSHPA NURSING HOME</item>
+         <item>POOJA MAT. &amp; SURGICAL NURSING HOME</item>
+         <item>PRASANNA NURSING HOME</item>
+         <item>PRASAD NURSING HOME</item>
+         <item>RAGINI BUCH NURSING HOME</item>
+         <item>RAJ HOSPITAL</item>
+         <item>LAXMI NURSING HOME</item>
+         <item>SANJIVANI NURSING HOME</item>
+         <item>SANJEEV MAT. &amp; NURSING HOME</item>
+         <item>SAIDHAM HOSPITAL</item>
+         <item>SAVALA NURSING HOME</item>
+         <item>HAJI BACHU EYE HOSPITAL</item>
+         <item>ACHARYA NURSING HOME</item>
+         <item>ENDOSCOPY CLINIC</item>
+         <item>PATANKAR NURSING HOME</item>
+         <item>PARIJAT CHILDREN HOSPITAL</item>
+         <item>SEVA NURSING HOME</item>
+         <item>SUNIL KAWLI SURGICAL NURSING HOME</item>
+         <item>MATHRURESH SURGICAL CLINIC</item>
+         <item>SRIDHAR HOSPITAL</item>
+         <item>NIRMAL NURSING HOME</item>
+         <item>RAJU CLINIC &amp; NURSING HOME</item>
+         <item>SUKHADA NURSING HOME</item>
+         <item>SHOBNA NURSING HOME</item>
+         <item>DR SINGHVI MATERNITY NURSING HOME</item>
+         <item>DR SALGAONKAR NURSING HOME</item>
+         <item>DR SHARAD HIRACHAND SHAH NURSING HOME</item>
+         <item>TRIVENI NURSING HOME</item>
+         <item>NERKAR SURGICAL NURSING HOME</item>
+         <item>RENU SHARMA CLINIC &amp; MATERNITY HOME</item>
+         <item>CENTRE FOR JOINT REPLACEMENT SURGERY</item>
+         <item>PUNIMIYA NURSING HOME</item>
+         <item>V T SHAH MEDICAL HOSP</item>
+         <item>PAREKH NURSING HOME</item>
+         <item>SHENOY NURSING HOME</item>
+         <item>DR. TILAK HOSPITAL</item>
+         <item>PIRAMAL HOSPITAL G K MEM HOSPITAL</item>
+         <item>J S VERURKAR NURSING HOME</item>
+         <item>MEHTA CLINIC</item>
+         <item>AGARWAL CHILDREN HOSPITAL</item>
+         <item>R K NURSING HOME</item>
+         <item>SHAKUNTALA CHILDREN\'S HOSPITAL</item>
+         <item>PUJARI HOSPITAL &amp; NURSING HOME</item>
+         <item>PRERNA MATERNITY &amp; SURIGICAL NURSING HOME</item>
+         <item>PRIYADEEP MATERNITY &amp; SURGICAL N. HOME</item>
+         <item>ASEEM ORTHOPEDIC HOSPITAL</item>
+         <item>SUMIT EYE CLINIC &amp; NURSING HOME</item>
+         <item>DASGUPTA NURSING HOME</item>
+         <item>GANDHI NURSING HOME</item>
+         <item>ELITE NURSING HOME &amp; RESEARCH CENTRE</item>
+         <item>BHARGAV NURSING HOME</item>
+         <item>APARNA NURSING HOME &amp; EYE HOSPITAL</item>
+         <item>ANAND NURSING HOME</item>
+         <item>ANAND MEDICAL &amp; SURGICAL CLINIC</item>
+         <item>ARADHANA INTENSIVE CARE UNIT</item>
+         <item>N C T SURGICAL &amp; NURSING HOME</item>
+         <item>EXCEL NURSING HOME</item>
+         <item>EVERSHINE NURSING HOME</item>
+         <item>KAUSAHLAYA NURSING HOME</item>
+         <item>GET WELL CLINIC &amp; NURSING Home</item>
+         <item>GOPI NURSING HOME</item>
+         <item>DR NAGPAL SURGICAL HOME</item>
+         <item>DIVYA NURSING HOME</item>
+         <item>PARK VIEW NURSING HOME &amp; CHILD HOSPITAL</item>
+         <item>MESANI NURSING HOME</item>
+         <item>LENKIN NURSING HOME</item>
+         <item>SIKKA NURSING HOME</item>
+         <item>SURYA NURSING HOME</item>
+         <item>HIRA NURSING HOME</item>
+         <item>Asian Heart Institute</item>
+         <item>Godrej Memorial</item>
+         <item>Dr L H Hiranandani Hospital</item>
+         <item>Sushrut Hospital</item>
+         <item>Parakh Hospital</item>
+         <item>Matushri Hira Monginavneet  Hospital</item>
+         <item>Fortis Hospital ltd</item>
+         <item>Saifee Hospital</item>
+    </string-array>
+    <string name="title_activity_my_documents_list">My Documents</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_medicine">Medicines</string>
+    <string name="title_activity_doctors">Doctors</string>
+    <string name="default_text">--</string>
+    <string name="sensorUnavailable">Accelerometer sensor unavailable on this device, this feature will not work</string>
+    <string name="myHealth"><![CDATA[My Health &amp; Wellness]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="visit_date">Visit date</string>
+</resources>

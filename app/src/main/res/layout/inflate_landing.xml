@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="10dp"
+    android:layout_margin="15dp"
+    tools:background="#c64097"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/Name"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/stdElevationForCards"
+        android:paddingLeft="5dp"
+        tools:text="My health and wellness bnasdhdahsbd ijasjdiaosjd ioasjdioasjd iajsdioas jd"
+        android:gravity="left"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="13sp"/>
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        tools:src="@drawable/contact_us"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
+
+
+
+
+

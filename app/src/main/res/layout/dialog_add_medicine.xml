@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="My medicine info"
+        android:textColor="@color/lightPrimaryText"
+        android:textSize="@dimen/header_dimen_dialog"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/BottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/Done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="@dimen/small_dialog_item"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/lightPrimaryText"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:background="@color/gray"
+            android:layout_gravity="center_vertical"></View>
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="@dimen/small_dialog_item"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/lightPrimaryText"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/BottomBar"
+        app:layout_constraintTop_toBottomOf="@+id/Header"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:context="com.yrdtechnologies.ActivityAddDocument">
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/small_dialog_item"
+                android:background="@drawable/gradient_gray_white"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:paddingLeft="5dp"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:hint="Name .."
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/StartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/startDate"
+                    android:onClick="showDatePickerDialog"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/small_dialog_item"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:drawableRight="@drawable/calander"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/gradient_gray_white"/>
+
+                <Button
+                    android:id="@+id/EndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/endDate"
+                    android:onClick="showDatePickerDialog"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/small_dialog_item"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:drawableRight="@drawable/calander"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/gradient_gray_white"/>
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/DrName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/gradient_gray_white"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textSize="@dimen/small_dialog_item"
+                android:singleLine="true"
+                android:textColorHint="@android:color/darker_gray"
+                android:paddingLeft="5dp"
+                android:imeOptions="actionNext"
+                android:hint="Dr Name .."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightPrimaryText"
+                android:text="Dosage"
+                android:textSize="@dimen/small_dialog_item"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:id="@+id/Morning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="@dimen/small_dialog_item"
+                    android:hint="morning"
+                    android:background="@drawable/gradient_gray_white"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/Evening"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    android:textSize="@dimen/small_dialog_item"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:hint="evening"
+                    android:background="@drawable/gradient_gray_white"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/Night"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:textSize="@dimen/small_dialog_item"
+                    android:singleLine="true"
+                    android:hint="night"
+                    android:background="@drawable/gradient_gray_white"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

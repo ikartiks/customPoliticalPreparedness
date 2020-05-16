@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/NestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.yrdtechnologies.FragmentUserProfile"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_gray_white"
+            >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:imeOptions="actionNext"
+                android:hint="@string/hint_name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/gradient_gray_white"
+                    >
+
+                    <EditText
+                        android:id="@+id/age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:background="@android:color/transparent"
+                        android:padding="5dp"
+                        android:imeOptions="actionNext"
+                        android:hint="@string/hint_age" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/hint_gender"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M"/>
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="F"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white">
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:imeOptions="actionNext"
+                android:hint="@string/hint_number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white">
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:imeOptions="actionNext"
+                android:hint="City" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_State"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:imeOptions="actionNext"
+                android:hint="State" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_addr1"
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient_gray_white"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/addr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionNext"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:hint="Address line 1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_addr2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/addr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionNext"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:hint="Address line 2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_addr3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/addr3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:imeOptions="actionNext"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:hint="Address line 3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_CIF"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gradient_gray_white"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:imeOptions="actionDone"
+                android:hint="CIF" />
+        </com.google.android.material.textfield.TextInputLayout>
+        
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:context="com.yrdtechnologies.FragmentEmergencyContact"
+            tools:listitem="@layout/inflate_landing"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

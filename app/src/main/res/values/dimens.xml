@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="stdMarginForFirstAndLastView">15dp</dimen>
+    <dimen name="stdMarginLeftRight">10dp</dimen>
+    <dimen name="stdMarginTopBottom">10dp</dimen>
+    <dimen name="stdPaddingForButtonsText">5dp</dimen>
+    <dimen name="stdPaddingForCards">3dp</dimen>
+    <dimen name="stdElevationForCards">5dp</dimen>
+
+    <dimen name="activity_horizontal_margin_word_detail">3dp</dimen>
+    <dimen name="app_bar_height">150dp</dimen>
+
+
+    <!--
+             Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+             https://developer.android.com/design/patterns/navigation-drawer.html
+        -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+    <!--
+    Refer to App Widget Documentation for margin information
+    http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+
+    <!-- Text Sizes -->
+
+    <dimen name="small_text_size_navigation">18sp</dimen>
+    <dimen name="large_text_size_navigation">25sp</dimen>
+    <dimen name="medium_text_size_navigation">18sp</dimen>
+    <dimen name="text_size_body_header">18sp</dimen>
+    <dimen name="text_size_body_large">18sp</dimen>
+    <dimen name="text_size_body_name_meaning_description">18sp</dimen>
+    <dimen name="text_size_v_small">18sp</dimen>
+    <dimen name="text_size_group_v_small">8sp</dimen>
+    <dimen name="small_dialog_item">14sp</dimen>
+    <dimen name="header_dimen_dialog">18sp</dimen>
+
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_vsmall">12sp</dimen>
+
+</resources>

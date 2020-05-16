@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <attr name="search_selector" format="reference" />
+    <attr name="drawer_selector" format="reference" />
+    
+    <attr name="bgForviewSeperator" format="reference" />
+    <attr name="bgForHeaderNav" format="reference" />
+    <attr name="bgForContentNav" format="reference" />
+
+    <attr name="secTextColor" format="reference" />
+    
+    <attr name="txtColorForHeaderNav" format="reference" />
+    
+    <attr name="nextImage" format="reference" />
+    <attr name="previousImage" format="reference" />
+
+    <attr name="fabIcon" format="reference" />
+    <attr name="fabBg" format="reference" />
+    
+    <attr name="bgForRecycler" format="reference" />
+    <attr name="bgStrokeForRecycler" format="reference" />
+
+    <attr name="bgProgressBar" format="reference" />
+    <attr name="progressProgressBar" format="reference" />
+
+    <attr name="bgForCards" format="reference" />
+    <attr name="progress_bar" format="reference" />
+
+    <attr name="correctAnsColor" format="color" />
+    <attr name="wrongAnsColor" format="color"/>
+
+    <declare-styleable name="GifImageView">
+        <attr name="gifResourseId" format="string" />
+    </declare-styleable>
+
+    
+</resources>

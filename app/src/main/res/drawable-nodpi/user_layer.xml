@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:drawable="@drawable/shape_green_round" />
+    <item
+        android:drawable="@drawable/user_white"
+        android:bottom="70dp"
+        android:right="70dp"
+        android:left="70dp"
+        android:top="70dp"
+        />
+
+</layer-list>

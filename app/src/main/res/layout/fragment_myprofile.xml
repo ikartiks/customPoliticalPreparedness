@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <!--app:spanCount="2"-->
+
+
+        <ImageView
+            android:id="@+id/Add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/add"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/AddProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            tools:text="Enter some shit"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:background="@drawable/bg_add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/Add"
+            />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.yrdtechnologies.FragmentDrugAllerfies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_weight="8"
+        tools:context="com.yrdtechnologies.FragmentDrugAllergies"
+        tools:listitem="@layout/inflate_myprofile"
+        android:layout_above="@+id/AddContainer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/AddProfile"
+        android:layout_marginBottom="10dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

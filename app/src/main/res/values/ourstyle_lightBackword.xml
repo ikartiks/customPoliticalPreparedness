@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OurLightStyleBackword" parent="@style/Theme.Light_grevocab.NoActionBar">
+
+
+        <!-- 1st  System attributes -->
+        <item name="android:windowBackground">@drawable/bg_repeat</item>
+        <!--<item name="android:colorBackground">@drawable/light_window_bg</item>-->
+
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/customThemeLightText</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+        <!-- other System attributes Material -->
+        <item name="colorAccent">@color/lightAccent</item>
+        <item name="colorPrimary">@color/lightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+        <item name="fabBg">@color/lightColorPrimaryDark</item>
+       
+        <!-- below is bg when nav bar is opened -->
+        <!-- <item name="android:colorBackground">@color/test2</item> -->
+		
+        <!-- below is bg when nav bar is opened -->
+        <item name="bgForviewSeperator">@color/lightDivider</item>
+        <item name="bgForHeaderNav">@color/lightColorPrimary</item>
+        <item name="bgForContentNav">@color/customThemeLightBg</item>
+        <item name="txtColorForHeaderNav">@color/lightPrimaryText</item>
+
+        <item name="bgProgressBar">@color/lightBgStrokeForCards</item>
+        <item name="progressProgressBar">@color/lightWindowEnd</item>
+        <item name="secTextColor">@color/lightSecTextColor</item>
+
+        <!-- <item name="starred_selector">@drawable/ic_action_important_light</item> -->
+        <item name="drawer_selector">@drawable/ic_drawer_light</item>
+        <item name="search_selector">@drawable/ic_action_search_light</item>
+        <item name="nextImage">@drawable/ic_action_next_item_light</item>
+        <item name="previousImage">@drawable/ic_action_previous_item_light</item>
+        <item name="fabIcon">@drawable/ic_action_new_light</item>
+        
+        <item name="bgForRecycler">@color/white</item>
+        <item name="bgStrokeForRecycler">@color/lightBgStrokeForCards</item>
+
+        <item name="bgForCards">@drawable/bg_for_cards_light</item>
+        <item name="progress_bar">@drawable/progress_bar_light</item>
+
+        <item name="correctAnsColor">@color/lightCorrectAns</item>
+        <item name="wrongAnsColor">@color/lightWrongAns</item>
+    
+    </style>
+
+    <!--<style name="TextLabel" parent="TextAppearance.AppCompat">-->
+        <!--&lt;!&ndash; Hint color and label color in FALSE state &ndash;&gt;-->
+        <!--<item name="android:textColorHint">@color/lightPrimaryText</item>-->
+
+
+        <!--&lt;!&ndash; Label color in TRUE state and bar color FALSE and TRUE State &ndash;&gt;-->
+        <!--<item name="colorAccent">@color/lightAccent</item>-->
+        <!--<item name="colorControlNormal">@color/lightSecTextColor</item>-->
+        <!--<item name="colorControlActivated">@color/lightSecTextColor</item>-->
+        <!--<item name="colorControlHighlight">@color/lightAccent</item>-->
+    <!--</style>-->
+
+    <style name="ToolBarStyle" parent="@style/ActionBar.Solid.Light_grevocab">
+
+
+        <item name="android:textColor">@color/lightPrimaryText</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorPrimary">@color/lightPrimaryText</item>
+        <item name="android:textColorSecondary">@color/lightPrimaryText</item>
+        <!--<item name="android:textColorSecondary">@android:color/black</item>-->
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+
+    </style>
+
+</resources>

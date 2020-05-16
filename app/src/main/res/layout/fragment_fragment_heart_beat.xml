@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:background="@drawable/gradient_white"
+            >
+
+            <ImageView
+                android:id="@+id/alert"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/exclamation"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/updateMeasurement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="5037"
+                android:textColor="@color/lightPrimaryText"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/alert"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:id="@+id/lastUpdateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="All Steps (weekly)"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:layout_below="@+id/updateMeasurement"
+                android:layout_toRightOf="@+id/alert"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="120dp"
+            android:padding="20dp"
+            android:background="@drawable/gradient_white"
+            >
+
+
+            <TextView
+                android:id="@+id/heartRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="15j1"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:id="@+id/range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Normal heart rate"
+                android:textColor="@color/lightPrimaryText"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/heartRate"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:id="@+id/current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your current BPM"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/heartRate"
+                />
+            <LinearLayout
+                android:id="@+id/bar"
+                android:layout_below="@+id/current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="||||||||||||||||||||||||||||||||||||||||||||||||"
+                    android:textColor="#ffff00"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="||||||||||||||||||||||||||||||||||||||||||||||||"
+                    android:textColor="#0088ff"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="||||||||||||||||||||||||||||||||||||||||||||||||"
+                    android:textColor="#ff005e"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="101"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150"
+                    android:textColor="#7c7678"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/heartRate"
+                    android:gravity="end"
+                    android:ellipsize="none"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/measure"
+        android:text="measure"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:background="@drawable/upload_bg"/>
+
+</FrameLayout>
