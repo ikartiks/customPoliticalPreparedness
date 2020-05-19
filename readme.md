@@ -15,3 +15,4 @@ I have made a Health app (For mumbai location) with follwing features
 *  My focus has been on users profile, medicine & doc info screens, Other parts of app are not updated to match the ruberic
 *  There is also a help, pedometer & heart rate functionality in the app, Those parts have not been updated to match ruberic as I have 4 features in profile, medicine & doc info & login screens
 *  Have used library for pedometer and heartrate.
+*  maps api key is not pushed to github
