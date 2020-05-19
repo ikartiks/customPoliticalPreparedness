@@ -15,4 +15,5 @@ gradlew
 gradlew.bat
 app/src/main/gen/
 tagviewlibrary/src/main/gen/
+app/src/main/res/values/secrets.xml
 
